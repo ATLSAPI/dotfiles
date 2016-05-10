@@ -1,0 +1,17 @@
+[github]
+  # user = atlsapi
+[color]
+	ui = auto
+[alias]
+	lg = log
+	st = status
+	co = checkout
+  ci = commit
+  pl = pull
+  plr = pull --rebase
+  df = diff
+  df = diff --word-diff
+  pm = push origin master
+  pd = push origin dev
+
+	# l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
