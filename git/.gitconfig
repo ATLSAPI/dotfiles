@@ -6,6 +6,7 @@
 	lg = log
 	st = status
 	co = checkout
+	cob = checkout -b
   ci = commit
   pl = pull
   plr = pull --rebase
@@ -14,4 +15,11 @@
   pm = push origin master
   pd = push origin dev
 
-	# l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	 lol = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	 
+
+[merge]
+	tool = kdiff3
+[mergetool "kdiff3"]
+	path = C:/Program Files/KDiff3/kdiff3.exe
+	trustExitCode = false
