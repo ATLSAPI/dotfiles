@@ -1,12 +1,12 @@
 [github]
   # user = atlsapi
 [color]
-	ui = auto
+  ui = auto
 [alias]
-	lg = log
-	st = status
-	co = checkout
-	cob = checkout -b
+  lg = log
+  st = status
+  co = checkout
+  cob = checkout -b
   ci = commit
   pl = pull
   plr = pull --rebase
@@ -14,8 +14,10 @@
   df = diff --word-diff
   pm = push origin master
   pd = push origin dev
-
-	 lol = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+  fep = fetch --prune
+  ri = rebase -i
+  brad = branch -D 
+  lol = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
 	 
 
 [merge]
